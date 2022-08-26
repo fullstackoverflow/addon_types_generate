@@ -1,0 +1,30 @@
+{
+  "name": "@tosee/addon_types_generate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "npm run compile&&node dist/compiler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackoverflow/addon_types_generate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstackoverflow/addon_types_generate/issues"
+  },
+  "homepage": "https://github.com/fullstackoverflow/addon_types_generate#readme",
+  "devDependencies": {
+    "@deepkit/type-compiler": "^1.0.1-alpha.75",
+    "@types/node": "^18.7.13",
+    "typescript": "4.7"
+  },
+  "dependencies": {
+    "@deepkit/app": "^1.0.1-alpha.75",
+    "@deepkit/type": "^1.0.1-alpha.75"
+  }
+}
